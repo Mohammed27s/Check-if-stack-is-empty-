@@ -1,0 +1,46 @@
+import java.util.Stack;
+
+public class stack {
+    public static Stack<String> names = new Stack<>();
+    public static void main(String[] args){
+
+
+
+         names.push("mohammed");
+         names.push("Noor");
+         names.push("John");
+
+         System.out.println(emptyYesorNo());
+
+
+
+
+
+
+
+
+    }
+
+    public static Boolean emptyYesorNo(){
+
+        if(names.empty()){
+
+            System.out.println("Is the stack empty ? ");
+            return Boolean.TRUE;
+
+        }
+
+        else {
+
+            System.out.println("Is the stack empty ?  ");
+            return Boolean.FALSE;
+
+
+        }
+
+
+    }
+
+
+
+}
